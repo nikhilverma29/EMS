@@ -31,15 +31,15 @@ A full-stack Employee Management System built with **Express.js** (backend) and 
 
 ```
 EMS/
-├── EMS [backend]/          # Express REST API
+├── backend/                # Express REST API
 │   ├── controllers/        # Route handlers
 │   ├── data/               # In-memory employee data
 │   ├── middleware/         # Logger middleware
 │   ├── routes/             # API routes
 │   └── server.js           # Entry point (port 5000)
 │
-└── EMS [frontend]/
-    └── OKhai/              # React + Vite app
+└── frontend/
+    └── client/             # React + Vite app
         ├── src/
         │   ├── App.jsx     # Main component
         │   └── index.css   # Global styles + theme
@@ -53,7 +53,7 @@ EMS/
 ### 1. Backend
 
 ```bash
-cd "EMS [backend]"
+cd backend
 npm install
 npm run dev
 # Runs on http://localhost:5000
@@ -62,7 +62,7 @@ npm run dev
 ### 2. Frontend
 
 ```bash
-cd "EMS [frontend]/OKhai"
+cd frontend/client
 npm install
 npm run dev
 # Runs on http://localhost:5173
